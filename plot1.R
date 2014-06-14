@@ -35,3 +35,4 @@ plot( NEI$year, NEI$Emissions, type = "l", col="black")
 
 #x.sub4 <- x.df[x.df$y == 1, ]
 aggregate(Emissions ~ year, data = NEI, sum)
+plot( test$year, test$Emissions, type = "o", col="black")
